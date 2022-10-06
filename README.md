@@ -16,3 +16,14 @@
 
  Con esto resguardamos nuestro API_KEY mediante un campo de configuración generado en tiempo de ejecucion mediante un **buildConfigField**
 
+## Lista de los features que deberían funcionar
+
+ - Mostrar correctamente la lista de 5 ciudades al cargar la app
+ - Realizar la llamada a API correctamente
+ - Mostrar los datos de la temperatura por Ciudad Seleccionada en la vista de Detalles
+ - Realizar las conversiones segun Sistema Seleccionado
+
+## Lista de los problemas conocidos
+
+ - La peticion Http mediante Retrofit puede fallar si no se esta conectado a internet,
+ - No se implemento el buscador en la lista de ciudades 
